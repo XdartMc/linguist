@@ -8259,6 +8259,14 @@ Verilog:
   codemirror_mode: verilog
   codemirror_mime_type: text/x-verilog
   language_id: 387
+Vern:
+  type: programming
+  color: "#c46b06"
+  extensions:
+  - ".vn"
+  tm_scope: source.vern
+  ace_mode: text
+  language_id: 7906
 Vim Help File:
   type: prose
   color: "#199f4b"

@@ -1,0 +1,7 @@
+import stdlib
+import cons
+
+// Main function
+func int main() {
+	cons.output("Hello, world!")
+}

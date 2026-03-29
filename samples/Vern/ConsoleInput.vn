@@ -1,0 +1,7 @@
+import stdlib
+import cons
+
+func int main() {
+	string name = cons.input("What's your name?: ")
+	cons.output("Hello, "+name)
+}

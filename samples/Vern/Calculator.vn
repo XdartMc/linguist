@@ -1,0 +1,18 @@
+import stdlib
+import math
+import cons
+
+func float calculator() {
+	string operation = cons.input("Enter math operation: ")
+	float result = math.calc(operation) // math.calc always returns FLOAT 
+	if result == null {
+		cons.output("Incorrect operation") // if "operation" has incorrect format, math.calc returns NULL
+	} else {
+		return result
+	}
+}
+
+func int main() {
+	float calcResult = calculator()
+	cons.output(calcResult)
+}
